@@ -28,6 +28,6 @@ jobs:
     - name: Install Surge
       run: npm Install -g surge
     - name: Run Surge
-      run: Surge ./ bootcampnewapp.surge.sh --token ${{sercet.SURGE_TOKEN}}
+      run: Surge ./ bootcampnewapp.surge.sh --token ${{sercets.SURGE_TOKEN}}
    
       
